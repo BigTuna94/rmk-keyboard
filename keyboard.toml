@@ -43,7 +43,6 @@ matrix_map = """
 [split]
 # split connection type
 connection = "ble"
-0
 
 [split.central]
 # Central's matrix definition and offsets
@@ -55,7 +54,7 @@ col_offset = 0
 [split.central.matrix]
 matrix_type = "normal"
 row_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00"]
-col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"
+col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"]
 
 
 [[split.peripheral]]
@@ -67,4 +66,4 @@ col_offset = 6
 [split.peripheral.matrix]
 matrix_type = "normal"
 row_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00"]
-col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"
+col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"]
