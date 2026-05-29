@@ -23,7 +23,7 @@ num_sectors = 32
 # [matrix] # Not valid for split
 # # Row and col pins are mandatory
 # row_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00"]
-# col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"]
+# col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
 
 # # RMK uses col2row as the default matrix diode direction, if you want to use a row2col matrix, add `row2col = true`
 # # row2col = true
@@ -55,7 +55,7 @@ col_offset = 0
 [split.central.matrix]
 matrix_type = "normal"
 row_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00"]
-col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"]
+col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
 
 
 [[split.peripheral]]
@@ -67,4 +67,4 @@ col_offset = 6
 [split.peripheral.matrix]
 matrix_type = "normal"
 row_pins = ["P0_17", "P0_20", "P0_22", "P0_24", "P1_00"]
-col_pins = ["P0_31", "P0_29", "PO_02", "P1_15", "P1_13", "P1_11"]
+col_pins = ["P0_31", "P0_29", "P0_02", "P1_15", "P1_13", "P1_11"]
