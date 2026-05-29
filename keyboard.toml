@@ -5,6 +5,7 @@ product_name = "u10e Keyboard on RMK"
 vendor_id = 0x4c4b # rmk stock
 product_id = 0x4747 # made up
 usb_enable = true
+board = "nice!nano"
 
 [ble]
 enabled = true
